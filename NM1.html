@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #87CEEB; /* Light Blue */
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+        }
+        .container:nth-child(odd) {
+            background: #FFD700; /* Light Yellow */
+        }
+        .container:nth-child(even) {
+            background: #98FB98; /* Light Green */
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #FF4500; /* Orange Red */
+        }
+        .profile-info {
+            flex: 1;
+            margin-left: 20px;
+        }
+        h2 {
+            color: #FF6347; /* Tomato */
+        }
+        h3 {
+            color: #008080; /* Teal */
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 0;
+            background: #FF69B4; /* Pink */
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+        .btn:hover {
+            background: #FF4500; /* Orange Red */
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background: #FFA07A; /* Light Salmon */
+            padding: 10px;
+            margin: 5px 0;
+            border-left: 5px solid #FF4500;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="profile">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.Q9rsZpd4tcVdZAmeChgtXAHaHa&pid=Api&P=0&h=180" alt="User Image">
+            <div class="profile-info">
+                <h2>Name:S.Kumarappan</h2>
+                <b><p>Cloud and Devops Architect</p></b>
+                <a href="proj.html" class="btn">Sample Project</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h3>About Me</h3>
+       <b> <p>Cloud and DevOps Architect with expertise in designing scalable and secure cloud infrastructure on AWS, Azure, and GCP. Skilled in CI/CD, automation, Kubernetes, and Infrastructure as Code (IaC). 
+            Passionate about optimizing deployments and enhancing system reliability through DevOps best practices.</p></b>
+    </div>
+    <div class="container">
+        <h3>Skills</h3>
+        <ul>
+            <li>AWS</li>
+            <li>Docker</li>
+            <li>Kubernetes</li>
+            <li>Jenkins</li>
+            <li>Python</li>
+        </ul>
+    </div>
+    <div class="container">
+        <h3>Projects</h3>
+        <ul>
+            <li>Deploying Application with Jenkins</li>
+            <li>Funzo- Online Movie tickets</li>
+        </ul>
+    </div>
+  
+</body>
+</html>
